@@ -28,14 +28,14 @@ int main()
 	cout << "var1 = " << var1 << endl;
 	cout << "var2 = " << var2 << endl;
 
-	cout << "Swap" << endl;
-	Swap(var1, var2);
+	cout << "\nSwap" << endl;
+	Swap(&var1, &var2);
 
 	cout << "var1 = " << var1 << endl;
 	cout << "var2 = " << var2 << endl;
 
-	cout << "Swap" << endl;
-	Swap(&var1, &var2);
+	cout << "\nSwap" << endl;
+	Swap(var1, var2);
 
 	cout << "var1 = " << var1 << endl;
 	cout << "var2 = " << var2 << endl;
